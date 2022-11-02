@@ -1,0 +1,9 @@
+.container-custom {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+   }
+
+.font-color-grey {
+    color: #b5b5b5;
+}
