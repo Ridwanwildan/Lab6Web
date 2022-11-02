@@ -46,3 +46,27 @@ dan ada juga class yang dibuat sendiri.
     </h1>
 </header>
 ```          
+
+## Add Navbar
+
+Untuk menambahkan navbar versi [Bootstrap](https://getbootstrap.com/) sebenarnya banyak berbagai macam         
+pilihan, navbar ini disamakan tampilannya seperti design yang sudah ada sebelumnya. ditambah juga dengan       
+CSS eksternal. Seperti ini :              
+
+```bash
+<nav class="navbar navbar-expand-lg bg-color-blue">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active fw-bolder font-color-white px-4" aria-current="page" href="#">Home</a>
+                <a class="nav-link fw-bolder font-color-white px-4" href="#">Artikel</a>
+                <a class="nav-link fw-bolder font-color-white px-4" href="#">About</a>
+                <a class="nav-link fw-bolder font-color-white px-4" href="#">kontak</a>
+            </div>
+        </div>
+    </div>
+</nav>
+```                   
