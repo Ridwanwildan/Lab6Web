@@ -10,7 +10,7 @@ Dalam latihan Bootstrap ini, saya menggunakan [Bootstrap Versi 5.2](https://getb
 Latihan ini adalah latihan slicing design website yang sudah ada ke bootstrap.      
 Design nya bisa dilihat disini : [Capture1.PNG](https://github.com/Ridwanwildan/Lab6Web/blob/main/Screenshoots/Capture1.PNG)             
 
-## :gear: Install CDN
+## Install CDN
 
 Pertama adalah menyiapkan folder yang didalamnya berisi `index.html` dan  `style.css`. Kemudian buat html         
 dasar seperti ini :            
@@ -33,3 +33,16 @@ dasar seperti ini :
 ```         
 
 Disini sudah disiapkan link CDN bootstrap dan juga tambahan CSS eksternal buatan sendiri.         
+
+## Add Header
+
+Selanjutnya adalah menambahkan header. Didalam header ini sudah ditambahkan class yang berasal dari [Bootstrap](https://getbootstrap.com/)                    
+dan ada juga class yang dibuat sendiri.          
+
+```bash
+<header>
+    <h1 class="px-4 py-5 fw-bolder fs-2 font-color-grey">
+        Layout Sederhana
+    </h1>
+</header>
+```          
