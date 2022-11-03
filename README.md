@@ -87,3 +87,103 @@ Kali ini section hero akan diisi oleh deskripsi website. Dengan warna background
     </div>
 </section>
 ```                   
+
+## Add Main Content
+
+Antara Main content dan aside terbagi menjadi dua, main content memiliki 8 grid dan aside 4 grid. Main content di website ini terbagi lagi menjadi tiga, yaitu section 1, 2, dan 3. Setiap sectionnya dipisah dengan `<hr>`.             
+
+### Section 1
+section 1 diisi oleh tiga row yang didalamnya terdapat circle image, text, dan button. Untuk mengubah image menjadi circle perlu CSS class tambahan yang sudah diberi class name `image-circle`.
+
+```bash
+<div class="container text-center">
+    <div class="row">
+        <div class="col py-4">
+            <img src="https://dummyimage.com/120/db7d25/fff.png" class="mx-auto d-block py-3 image-circle" alt="">
+            <div class="fs-5 fw-bolder font-color-grey-2">
+                Heading
+            </div>
+            <div class="py-2 font-color-grey-2">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </div>
+            <div class="py-3">
+                <button type="button" class="btn btn-secondary">View detail</button>
+            </div>
+        </div>
+        <div class="col py-4">
+            <img src="https://dummyimage.com/120/3e73e6/fff.png" class="mx-auto d-block py-3 image-circle" alt="">
+            <div class="fs-5 fw-bolder font-color-grey-2">
+                Heading
+            </div>
+            <div class="py-2 font-color-grey-2">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </div>
+            <div class="py-3">
+                <button type="button" class="btn btn-secondary">View detail</button>
+            </div>
+        </div>
+        <div class="col py-4">
+            <img src="https://dummyimage.com/120/71e6d4/fff.png" class="mx-auto d-block py-3 image-circle" alt="">
+            <div class="fs-5 fw-bolder font-color-grey-2">
+                Heading
+            </div>
+            <div class="py-2 font-color-grey-2">
+                Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+            </div>
+            <div class="py-3">
+                <button type="button" class="btn btn-secondary">View detail</button>
+            </div>
+        </div>
+    </div>
+</div>
+```                   
+
+### Section 2
+
+Section 2 diisi oleh dua row yang didalamnya ada rounded image disebelah kiri dan text disebelah kanan.           
+
+```bash
+<div class="py-4">
+    <div class="container fs-4 fw-bolder font-color-grey-2">
+        First featurette heading.
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 py-3">
+                <img src="https://dummyimage.com/150/7b8a70/fff.png" class="rounded d-block" alt="">
+            </div>
+            <div class="col-9 px-4 my-auto font-color-grey-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                pretium ac.
+            </div>
+        </div>
+    </div>
+</div>
+```                   
+
+### Section 3
+
+Section 3 diisi oleh dua row yang didalamnya ada text disebelah kiri dan rounded image disebelah kanan.
+
+```bash
+<div class="py-4">
+    <div class="container fs-4 fw-bolder font-color-grey-2">
+        First featurette heading.
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-9 my-3 font-color-grey-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+                elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+                vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+                pretium ac.
+            </div>
+            <div class="col-3 py-3">
+                <img src="https://dummyimage.com/150/7b8a70/fff.png" class="rounded mx-auto" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+```                   
