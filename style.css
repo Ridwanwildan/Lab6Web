@@ -23,6 +23,10 @@ body {
     color: #fff !important;
 }
 
+.fs-18 {
+    font-size: 18px !important;
+}
+
 .bg-color-blue {
     background-color: #1f5faa;
 }
@@ -33,4 +37,14 @@ body {
 
 .hero {
     background-color: #e4e4e5;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.btn-secondary {
+    color: #353535 !important;
+    background-color: #e4e4e5 !important;
+    border: none !important;
 }
