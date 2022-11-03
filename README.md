@@ -49,9 +49,7 @@ dan ada juga class yang dibuat sendiri.
 
 ## Add Navbar
 
-Untuk menambahkan navbar versi [Bootstrap](https://getbootstrap.com/) sebenarnya banyak berbagai macam         
-pilihan, navbar ini disamakan tampilannya seperti design yang sudah ada sebelumnya. ditambah juga dengan       
-CSS eksternal. Seperti ini :              
+Untuk menambahkan navbar versi [Bootstrap](https://getbootstrap.com/) sebenarnya banyak berbagai macam pilihan, navbar ini disamakan tampilannya seperti design yang sudah ada sebelumnya. ditambah juga dengan CSS eksternal. Seperti ini :              
 
 ```bash
 <nav class="navbar navbar-expand-lg bg-color-blue">
@@ -69,4 +67,23 @@ CSS eksternal. Seperti ini :
         </div>
     </div>
 </nav>
+```                   
+
+## Add Hero
+
+Kali ini section hero akan diisi oleh deskripsi website. Dengan warna background abu-abu dan ada tambahan buttonnya.        
+
+```bash
+<section class="px-4 py-5 hero">
+    <h1 class="py-2 fs-2 fw-bolder font-color-grey-2 ">Hello World!</h1>
+    <p class="font-color-grey-2 lh-base">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+        elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+        vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+        pretium ac.
+    </p>
+    <div class="py-3">
+        <button type="button" class="btn btn-primary px-3">Learn more &raquo;</button>
+    </div>
+</section>
 ```                   
