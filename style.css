@@ -15,6 +15,10 @@ body {
     color: #b5b5b5;
 }
 
+.font-color-grey-2 {
+    color: #5A5A5A;
+}
+
 .font-color-white {
     color: #fff !important;
 }
@@ -25,4 +29,8 @@ body {
 
 .nav-active-color {
     background-color: #2b83ea;
+}
+
+.hero {
+    background-color: #e4e4e5;
 }
