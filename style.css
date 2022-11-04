@@ -48,3 +48,11 @@ body {
     background-color: #e4e4e5 !important;
     border: none !important;
 }
+
+.list-group {
+    border-radius: 0 !important;
+}
+
+.list-group-active {
+    background-color: #428bca !important;
+}
