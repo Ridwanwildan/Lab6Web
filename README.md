@@ -215,3 +215,63 @@ Section 3 diisi oleh dua row yang didalamnya ada text disebelah kiri dan rounded
   </div>
 </section>
 ```
+
+## Add Aside
+
+Selanjutnya adalah menambahkan content pada aside, content yang ada di `aside` ada dua. Yaitu widget yang didalamnya berisi list, dan juga widget yang didalamnya berisi text.
+
+### Widget List
+
+Pertama adalah widget list seperti ini :
+
+```bash
+<div class="container my-5">
+  <div class="list-group">
+    <div
+      class="list-group-item list-group-item-action list-group-active font-color-white fw-bolder fs-5"
+      aria-current="true"
+    >
+      Widget Header
+    </div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action"
+      >Widget Link</a
+    >
+    <a href="#" class="list-group-item list-group-item-action"
+      >Widget Link</a
+    >
+    <a href="#" class="list-group-item list-group-item-action"
+      >Widget Link</a
+    >
+    <a href="#" class="list-group-item list-group-item-action"
+      >Widget Link</a
+    >
+    <a href="#" class="list-group-item list-group-item-action"
+      >Widget Link</a
+    >
+  </div>
+</div>
+```
+
+### Widget Text
+
+Kemudian yang kedua adalah widget text seperti ini :
+
+```bash
+<div class="container my-4">
+  <div class="list-group">
+    <div
+      href="#"
+      class="list-group-item list-group-item-action list-group-active font-color-white fw-bolder fs-5"
+      aria-current="true"
+    >
+      Widget Text
+    </div>
+    <div class="container border py-3">
+      Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu.
+      Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+      pharetra est nunc, nec pretium nunc pretium ac.
+    </div>
+  </div>
+</div>
+```
