@@ -90,7 +90,20 @@ Kali ini section hero akan diisi oleh deskripsi website. Dengan warna background
 
 ## Add Main Content
 
-Antara Main content dan aside terbagi menjadi dua, main content memiliki 8 grid dan aside 4 grid. Main content di website ini terbagi lagi menjadi tiga, yaitu section 1, 2, dan 3. Setiap sectionnya dipisah dengan `<hr>`.
+Antara Main content dan aside terbagi menjadi dua, main content memiliki 8 grid dan aside 4 grid. Main content di website ini terbagi lagi menjadi tiga, yaitu section 1, 2, dan 3. Setiap sectionnya dipisah dengan `<hr>`. Sebelum membuat `<section>`, terlebih dahulu buat container yang berisi 8 gridnya seperti ini :
+
+```bash
+<div class="container">
+  <div class="row">
+    <main class="col-8">
+        <!-- Insert main content here -->
+    </main>
+    <aside class="col-4">
+        <!-- Insert aside here -->
+    </aside>
+  </div>
+</div>
+```
 
 ### Section 1
 
@@ -201,5 +214,4 @@ Section 3 diisi oleh dua row yang didalamnya ada text disebelah kiri dan rounded
     </div>
   </div>
 </section>
-
 ```
