@@ -275,3 +275,13 @@ Kemudian yang kedua adalah widget text seperti ini :
   </div>
 </div>
 ```
+
+## Add Footer
+
+Terakhir adalah menambahkan footer. Gunakan tag `<footer>` dengan warna backgroung hitam. Seperti ini :
+
+```bash
+<footer class="py-3 bg-color-black font-color-white">
+  &copy; 2022 - Universitas Pelita Bangsa
+</footer>
+```
