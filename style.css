@@ -31,6 +31,10 @@ body {
     background-color: #1f5faa;
 }
 
+.bg-color-black {
+    background-color: #000;
+}
+
 .nav-active-color {
     background-color: #2b83ea;
 }
