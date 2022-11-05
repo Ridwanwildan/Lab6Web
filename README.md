@@ -16,9 +16,10 @@ Daftar isi :
 - [Add Main Content](https://github.com/Ridwanwildan/Lab6Web#add-main-content)
 - [Add Aside](https://github.com/Ridwanwildan/Lab6Web#add-main-aside)
 - [Add Footer](https://github.com/Ridwanwildan/Lab6Web#add-main-footer)
+- [Result](https://github.com/Ridwanwildan/Lab6Web#result)
 
 Latihan ini adalah latihan slicing design website yang sudah ada ke bootstrap.  
-Design nya bisa dilihat disini : [Capture1.PNG](https://github.com/Ridwanwildan/Lab6Web/blob/main/Screenshoots/Capture1.PNG)
+Design nya bisa dilihat disini : [Capture1.PNG](Screenshoots/Capture1.PNG)
 
 ## Install CDN
 
@@ -295,3 +296,9 @@ Terakhir adalah menambahkan footer. Gunakan tag `<footer>` dengan warna backgrou
   &copy; 2022 - Universitas Pelita Bangsa
 </footer>
 ```
+
+## Result
+
+Setelah selesai, maka hasilnya bisa dilihat di :link:https://ridwanwildan.github.io/Lab6Web/ dan akan seperti ini :
+
+![Gambar 2](Screenshoots/Capture2.PNG)
