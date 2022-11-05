@@ -1,4 +1,4 @@
-# :rocket: Latihan Menggunakan Bootstrap
+# :rocket: Latihan Menggunakan [Bootstrap](https://getbootstrap.com/)
 
 - Nama : Hizbullah Ridwan
 - NIM : 312110055
@@ -6,6 +6,16 @@
 - Mata Kuliah : Pemrograman Web
 
 Dalam latihan Bootstrap ini, saya menggunakan [Bootstrap Versi 5.2](https://getbootstrap.com/), [Google Chrome](https://www.google.com/intl/id_id/chrome/) sebagai web browser dan [Visual Studio Code](https://code.visualstudio.com/) sebagai teks editornya.
+
+Daftar isi :
+
+- [Install CDN](https://github.com/Ridwanwildan/Lab6Web#install-cdn)
+- [Add Header](https://github.com/Ridwanwildan/Lab6Web#add-header)
+- [Add Navbar](https://github.com/Ridwanwildan/Lab6Web#add-navbar)
+- [Add Hero](https://github.com/Ridwanwildan/Lab6Web#add-hero)
+- [Add Main Content](https://github.com/Ridwanwildan/Lab6Web#add-main-content)
+- [Add Aside](https://github.com/Ridwanwildan/Lab6Web#add-main-aside)
+- [Add Footer](https://github.com/Ridwanwildan/Lab6Web#add-main-footer)
 
 Latihan ini adalah latihan slicing design website yang sudah ada ke bootstrap.  
 Design nya bisa dilihat disini : [Capture1.PNG](https://github.com/Ridwanwildan/Lab6Web/blob/main/Screenshoots/Capture1.PNG)
