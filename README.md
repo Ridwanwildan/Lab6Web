@@ -1,11 +1,11 @@
 # :rocket: Latihan Menggunakan [Bootstrap](https://getbootstrap.com/)
 
+Made With : [![Google Chrome](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://www.google.com/intl/id_id/chrome/) [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/) [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
+
 - Nama : Hizbullah Ridwan
 - NIM : 312110055
 - Kelas : TI.21.B.1
 - Mata Kuliah : Pemrograman Web
-
-Dalam latihan Bootstrap ini, saya menggunakan [Bootstrap Versi 5.2](https://getbootstrap.com/), [Google Chrome](https://www.google.com/intl/id_id/chrome/) sebagai web browser dan [Visual Studio Code](https://code.visualstudio.com/) sebagai teks editornya.
 
 Daftar isi :
 
